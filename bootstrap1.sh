@@ -6,14 +6,14 @@ cd /var/www/html
 
 
 wget https://github.com/shivin-gh/lb-test.git/img1.jpg
-mv cat1.jpg cat.jpg
+mv img1.jpg img.jpg
 wget https://github.com/shivin-gh/lb-test.git/index.php
 mv /var/www/html/htaccess /var/www/html/.htaccess
 
-mkdir /var/www/html/cat
-cp /var/www/html/cat.jpg /var/www/html/cat
-cp /var/www/html/index.php /var/www/html/cat
-cp /var/www/html/.htaccess /var/www/html/cat
+mkdir /var/www/html/img
+cp /var/www/html/img.jpg /var/www/html/img
+cp /var/www/html/index.php /var/www/html/img
+cp /var/www/html/.htaccess /var/www/html/img
 
 sudo systemctl start httpd
 sudo systemctl enable httpd

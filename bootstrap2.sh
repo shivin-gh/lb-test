@@ -5,15 +5,15 @@ cd /var/www/html
 
 
 
-wget https://github.com/linuxacademy/content-aws-csa2019/raw/master/lesson_files/07_hybrid_scaling/1_LBandASG/CLBandHealth/img2.jpg
-mv cat1.jpg cat.jpg
-wget https://github.com/linuxacademy/content-aws-csa2019/raw/master/lesson_files/07_hybrid_scaling/1_LBandASG/CLBandHealth/index.php
+wget https://github.com/shivin-gh/lb-test.git/img2.jpg
+mv img2.jpg img.jpg
+wget https://github.com/shivin-gh/lb-test.git/index.php
 mv /var/www/html/htaccess /var/www/html/.htaccess
 
-mkdir /var/www/html/cat
-cp /var/www/html/cat.jpg /var/www/html/cat
-cp /var/www/html/index.php /var/www/html/cat
-cp /var/www/html/.htaccess /var/www/html/cat
+mkdir /var/www/html/img
+cp /var/www/html/img.jpg /var/www/html/img
+cp /var/www/html/index.php /var/www/html/img
+cp /var/www/html/.htaccess /var/www/html/img
 
 sudo systemctl start httpd
 sudo systemctl enable httpd
