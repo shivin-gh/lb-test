@@ -5,9 +5,9 @@ cd /var/www/html
 
 
 
-wget https://github.com/linuxacademy/content-aws-csa2019/raw/master/lesson_files/07_hybrid_scaling/1_LBandASG/CLBandHealth/img1.jpg
+wget https://github.com/shivin-gh/lb-test.git/img1.jpg
 mv cat1.jpg cat.jpg
-wget https://github.com/linuxacademy/content-aws-csa2019/raw/master/lesson_files/07_hybrid_scaling/1_LBandASG/CLBandHealth/index.php
+wget https://github.com/shivin-gh/lb-test.git/index.php
 mv /var/www/html/htaccess /var/www/html/.htaccess
 
 mkdir /var/www/html/cat
